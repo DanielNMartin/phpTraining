@@ -1,23 +1,5 @@
 <?php
 
-/*
-function calculus ($a, $b) {
-$sum= $a + $b;
-$min= $a - $b;
-$mul= $a * $b;
-$div= $a / $b;
-
-return $sum;
-return $min;
-return $mul;
-return $div;
-
-return array ($sum, $min, $mul, $div);
-}
-
-echo calculus (6, 2);
-
-*/
 function calculus ($a, $b) {
 $sum= $a + $b;
 return $sum;
@@ -45,3 +27,21 @@ return $div;
 }
 
 echo calculus (9, 3);
+
+// Attempt at complete function? WIP
+
+function calculus ($a, $b) {
+$sum= $a + $b;
+$min= $a - $b;
+$mul= $a * $b;
+$div= $a / $b;
+
+return $sum;
+return $min;
+return $mul;
+return $div;
+
+return array ($sum, $min, $mul, $div);
+}
+
+echo calculus (6, 2);
