@@ -1,21 +1,21 @@
 <?php
 
-function addition($a,$b) {
+function addition($a, $b) {
   $sum = $a + $b;
   return $sum;
 }
 
-function subtraction($a,$b) {
+function subtraction($a, $b) {
   $min = $a - $b;
   return $min;
 }
 
-function multiplication($a,$b) {
+function multiplication($a, $b) {
   $mul = $a * $b;
   return $mul;
 }
 
-function division($a,$b) {
+function division($a, $b) {
   $div = $a / $b;
   return $div;
 }
