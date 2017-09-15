@@ -1,47 +1,30 @@
 <?php
 
-function calculus ($a, $b) {
-$sum= $a + $b;
-return $sum;
+function addition ($a, $b) {
+  $sum= $a + $b;
+  return $sum;
+  }
+
+echo addition (6, 2) ."\n";
+
+
+function subtraction ($a, $b) {
+  $min= $a - $b;
+  return $min;
+  }
+
+echo subtraction (5, 2) ."\n";
+
+function multiplication ($a, $b) {
+  $mul= $a * $b;
+  return $mul;
 }
 
-echo calculus (6, 2);
+echo multiplication (8, 2) ."\n";
 
-function calculus ($a, $b) {
-$min= $a - $b;
-return $min;
+function division ($a, $b) {
+  $div= $a / $b;
+  return $div;
 }
 
-echo calculus (5, 2);
-
-function calculus ($a, $b) {
-$mul= $a * $b;
-return $mul;
-}
-
-echo calculus (8, 2);
-
-function calculus ($a, $b) {
-$div= $a / $b;
-return $div;
-}
-
-echo calculus (9, 3);
-
-// Attempt at complete function? WIP
-
-function calculus ($a, $b) {
-$sum= $a + $b;
-$min= $a - $b;
-$mul= $a * $b;
-$div= $a / $b;
-
-return $sum;
-return $min;
-return $mul;
-return $div;
-
-return array ($sum, $min, $mul, $div);
-}
-
-echo calculus (6, 2);
+echo division (9, 3) ."\n";
